@@ -1,0 +1,20 @@
+stages:
+  - build
+
+build_ios_ipa:
+  stage: build
+  tags:
+    - saas-macos-medium-m1
+  before_script:
+    - brew install xcodegen
+  script:
+    - chmod +x ios/build_ipa.sh
+    - ./ios/build_ipa.sh
+  artifacts:
+    name: "CycleCare-iOS-IPA"
+    paths:
+      - ios/CycleCare.ipa
+    expire_in: 7 days
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main" || $CI_COMMIT_BRANCH == "develop"
+    - if: $CI_PIPELINE_SOURCE == "web"

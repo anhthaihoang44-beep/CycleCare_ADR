@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CycleCare</string>
+    <string name="tagline">Your trusted cycle and reproductive health companion</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_welcome_title">Welcome to CycleCare</string>
+    <string name="onboarding_welcome_desc">A safe, private space to track your menstrual cycle, ovulation, and reproductive wellness.</string>
+    <string name="onboarding_goal_title">What is your main goal?</string>
+    <string name="onboarding_goal_subtitle">You can adjust this goal anytime in settings.</string>
+    <string name="goal_track">Track Menstrual Cycle</string>
+    <string name="goal_conceive">Get Pregnant &amp; Fertility</string>
+    <string name="goal_pregnant">Track Pregnancy</string>
+    <string name="goal_perimenopause">Perimenopause &amp; Hormonal Health</string>
+
+    <string name="onboarding_period_date_title">When did your last period start?</string>
+    <string name="onboarding_cycle_length_title">How long is your typical cycle?</string>
+    <string name="onboarding_period_length_title">How many days does your period usually last?</string>
+    <string name="days_unit">%d days</string>
+    <string name="btn_continue">Continue</string>
+    <string name="btn_back">Back</string>
+    <string name="btn_start_anonymous">Use Anonymously (No Account)</string>
+    <string name="btn_signin">Sign In</string>
+    <string name="btn_signup">Create Account</string>
+
+    <!-- Home -->
+    <string name="nav_home">Home</string>
+    <string name="nav_calendar">Calendar</string>
+    <string name="nav_log">Daily Log</string>
+    <string name="nav_insights">Insights</string>
+    <string name="nav_settings">Settings</string>
+    
+    <string name="cycle_day_indicator">Day %d</string>
+    <string name="cycle_day_of_cycle">of cycle</string>
+    <string name="days_until_period">%d days until period</string>
+    <string name="period_starts_today">Period starts today</string>
+    <string name="period_late_days">Period is %d days late</string>
+    <string name="fertile_chance_low">Chance of getting pregnant: Low</string>
+    <string name="fertile_chance_high">Chance of getting pregnant: High</string>
+    <string name="fertile_chance_ovulation">Ovulation Day</string>
+    <string name="btn_log_period">Log Period</string>
+    <string name="btn_end_period">End Period</string>
+
+    <!-- Calendar -->
+    <string name="calendar_legend_period">Period</string>
+    <string name="calendar_legend_predicted">Predicted</string>
+    <string name="calendar_legend_fertile">Fertile Window</string>
+    <string name="calendar_legend_ovulation">Ovulation</string>
+    <string name="calendar_edit_period_dialog_title">Edit Period Dates</string>
+
+    <!-- Daily Log -->
+    <string name="daily_log_title">Daily Health Log</string>
+    <string name="section_mood">Mood</string>
+    <string name="section_discharge">Cervical Mucus / Discharge</string>
+    <string name="section_cramps">Cramps Intensity (0–5)</string>
+    <string name="section_libido">Sex Drive / Libido (0–5)</string>
+    <string name="section_sleep">Sleep</string>
+    <string name="section_activity">Physical Activity</string>
+    <string name="section_symptoms">Body Symptoms</string>
+    <string name="section_note">Personal Notes</string>
+    <string name="btn_save_log">Save Log</string>
+
+    <!-- Settings & Privacy -->
+    <string name="settings_title">Settings &amp; Privacy</string>
+    <string name="settings_anonymous_notice">You are currently using Anonymous Mode. Link your email to sync and back up data safely.</string>
+    <string name="settings_link_account">Link Account (Save Cloud Backup)</string>
+    <string name="settings_biometric_lock">Biometric Lock (Fingerprint / Face)</string>
+    <string name="settings_export_data">Export Personal Data (JSON)</string>
+    <string name="settings_delete_all_data">Delete All Data</string>
+    <string name="settings_delete_account">Permanently Delete Account</string>
+    <string name="settings_medical_disclaimer">Medical Disclaimer</string>
+    <string name="medical_disclaimer_text">CycleCare is designed for personal health tracking and statistical estimation only. It does NOT replace professional medical diagnosis, clinical consultation, or contraception. Always consult a healthcare professional for abnormal symptoms.</string>
+
+    <!-- General -->
+    <string name="loading">Loading…</string>
+    <string name="error_generic">An error occurred. Please try again.</string>
+    <string name="saved_successfully">Saved successfully!</string>
+</resources>
